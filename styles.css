@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&family=Poppins:wght@400;600&family=Sacramento&family=Varela+Round&display=swap');       
+
+.container{
+    min-height: 100vh;
+    font-family: poppins;
+    max-width: 80vw;
+    margin: auto;
+}
+
+.container h1, h2{
+    margin: 23px 0;
+}
+
+.container form{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.container form label{
+    font-size: 25px;
+    margin-bottom: 12px;
+}
+.container form input[type='number'], select, label{
+    font-size: 25px;
+    width: 23vw;
+    margin: 23px 0;
+}
+
+.btn{
+    width: 144px;
+    padding: 5px 8px;
+    font-size: 23px;
+    background:  rgb(197, 83, 197);
+    color: white;
+    border-radius: 14px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    color: rgb(0, 238, 255);
+    transition-delay: .5ms;
+}
+
+.output{
+    /* display: none; */
+}
+
+.output table{
+    width: 50vw;
+    text-align: center;
+    border: 2px solid black;
+    font-size: 20px;
+}
+
+footer{
+    text-align: center;
+    font-family: poppins;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    font-family: 'Noto Sans', sans-serif;
+    display: flex;
+    font-size: 20px;
+    background-color: rgb(197, 83, 197);
+    padding: 23px;
+}
+
+nav li a{
+    text-decoration: none;
+    color: black
+}
+
+nav li a:hover{
+    text-decoration: none;
+    color: rgb(0, 238, 255);
+    transition-delay: .5ms;
+}
+
+nav ul li{
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul{
+    display: flex;
+
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: 23px; */
+}
+
